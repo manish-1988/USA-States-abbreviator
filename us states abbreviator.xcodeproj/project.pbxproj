@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0E124F618E0A4A6003FC83C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E124F418E0A4A6003FC83C /* ViewController.m */; };
+		C0E124F718E0A4A6003FC83C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E124F518E0A4A6003FC83C /* ViewController.xib */; };
+		C0E1250318E0B3A2003FC83C /* abbreviations.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0E124FF18E0B3A2003FC83C /* abbreviations.plist */; };
+		C0E1250418E0B3A2003FC83C /* states.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0E1250018E0B3A2003FC83C /* states.plist */; };
+		C0E1250518E0B3A2003FC83C /* USStatesAbbreviator.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E1250218E0B3A2003FC83C /* USStatesAbbreviator.m */; };
+		FC23C83718E08FEE0011736C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC23C83618E08FEE0011736C /* Foundation.framework */; };
+		FC23C83918E08FEE0011736C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC23C83818E08FEE0011736C /* CoreGraphics.framework */; };
+		FC23C83B18E08FEE0011736C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC23C83A18E08FEE0011736C /* UIKit.framework */; };
+		FC23C84118E08FEE0011736C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC23C83F18E08FEE0011736C /* InfoPlist.strings */; };
+		FC23C84318E08FEE0011736C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC23C84218E08FEE0011736C /* main.m */; };
+		FC23C84718E08FEE0011736C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC23C84618E08FEE0011736C /* AppDelegate.m */; };
+		FC23C84918E08FEE0011736C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC23C84818E08FEE0011736C /* Images.xcassets */; };
+		FC23C85018E08FEE0011736C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC23C84F18E08FEE0011736C /* XCTest.framework */; };
+		FC23C85118E08FEE0011736C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC23C83618E08FEE0011736C /* Foundation.framework */; };
+		FC23C85218E08FEE0011736C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC23C83A18E08FEE0011736C /* UIKit.framework */; };
+		FC23C85A18E08FEE0011736C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC23C85818E08FEE0011736C /* InfoPlist.strings */; };
+		FC23C85C18E08FEE0011736C /* us_states_abbreviatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC23C85B18E08FEE0011736C /* us_states_abbreviatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC23C85318E08FEE0011736C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC23C82B18E08FEE0011736C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC23C83218E08FEE0011736C;
+			remoteInfo = "us states abbreviator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0E124F318E0A4A6003FC83C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0E124F418E0A4A6003FC83C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0E124F518E0A4A6003FC83C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C0E124FF18E0B3A2003FC83C /* abbreviations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = abbreviations.plist; sourceTree = "<group>"; };
+		C0E1250018E0B3A2003FC83C /* states.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = states.plist; sourceTree = "<group>"; };
+		C0E1250118E0B3A2003FC83C /* USStatesAbbreviator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USStatesAbbreviator.h; sourceTree = "<group>"; };
+		C0E1250218E0B3A2003FC83C /* USStatesAbbreviator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USStatesAbbreviator.m; sourceTree = "<group>"; };
+		FC23C83318E08FEE0011736C /* us states abbreviator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "us states abbreviator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC23C83618E08FEE0011736C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC23C83818E08FEE0011736C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC23C83A18E08FEE0011736C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC23C83E18E08FEE0011736C /* us states abbreviator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "us states abbreviator-Info.plist"; sourceTree = "<group>"; };
+		FC23C84018E08FEE0011736C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC23C84218E08FEE0011736C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC23C84418E08FEE0011736C /* us states abbreviator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "us states abbreviator-Prefix.pch"; sourceTree = "<group>"; };
+		FC23C84518E08FEE0011736C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC23C84618E08FEE0011736C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC23C84818E08FEE0011736C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC23C84E18E08FEE0011736C /* us states abbreviatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "us states abbreviatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC23C84F18E08FEE0011736C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC23C85718E08FEE0011736C /* us states abbreviatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "us states abbreviatorTests-Info.plist"; sourceTree = "<group>"; };
+		FC23C85918E08FEE0011736C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC23C85B18E08FEE0011736C /* us_states_abbreviatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = us_states_abbreviatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC23C83018E08FEE0011736C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23C83918E08FEE0011736C /* CoreGraphics.framework in Frameworks */,
+				FC23C83B18E08FEE0011736C /* UIKit.framework in Frameworks */,
+				FC23C83718E08FEE0011736C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC23C84B18E08FEE0011736C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23C85018E08FEE0011736C /* XCTest.framework in Frameworks */,
+				FC23C85218E08FEE0011736C /* UIKit.framework in Frameworks */,
+				FC23C85118E08FEE0011736C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0E124FE18E0B3A2003FC83C /* USStatesAbbreviator */ = {
+			isa = PBXGroup;
+			children = (
+				C0E124FF18E0B3A2003FC83C /* abbreviations.plist */,
+				C0E1250018E0B3A2003FC83C /* states.plist */,
+				C0E1250118E0B3A2003FC83C /* USStatesAbbreviator.h */,
+				C0E1250218E0B3A2003FC83C /* USStatesAbbreviator.m */,
+			);
+			name = USStatesAbbreviator;
+			path = "Supporting Files/USStatesAbbreviator";
+			sourceTree = "<group>";
+		};
+		FC23C82A18E08FEE0011736C = {
+			isa = PBXGroup;
+			children = (
+				FC23C83C18E08FEE0011736C /* us states abbreviator */,
+				FC23C85518E08FEE0011736C /* us states abbreviatorTests */,
+				FC23C83518E08FEE0011736C /* Frameworks */,
+				FC23C83418E08FEE0011736C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC23C83418E08FEE0011736C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC23C83318E08FEE0011736C /* us states abbreviator.app */,
+				FC23C84E18E08FEE0011736C /* us states abbreviatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC23C83518E08FEE0011736C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC23C83618E08FEE0011736C /* Foundation.framework */,
+				FC23C83818E08FEE0011736C /* CoreGraphics.framework */,
+				FC23C83A18E08FEE0011736C /* UIKit.framework */,
+				FC23C84F18E08FEE0011736C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC23C83C18E08FEE0011736C /* us states abbreviator */ = {
+			isa = PBXGroup;
+			children = (
+				FC23C84518E08FEE0011736C /* AppDelegate.h */,
+				FC23C84618E08FEE0011736C /* AppDelegate.m */,
+				C0E124F318E0A4A6003FC83C /* ViewController.h */,
+				C0E124F418E0A4A6003FC83C /* ViewController.m */,
+				C0E124F518E0A4A6003FC83C /* ViewController.xib */,
+				FC23C84818E08FEE0011736C /* Images.xcassets */,
+				FC23C83D18E08FEE0011736C /* Supporting Files */,
+			);
+			path = "us states abbreviator";
+			sourceTree = "<group>";
+		};
+		FC23C83D18E08FEE0011736C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0E124FE18E0B3A2003FC83C /* USStatesAbbreviator */,
+				FC23C83E18E08FEE0011736C /* us states abbreviator-Info.plist */,
+				FC23C83F18E08FEE0011736C /* InfoPlist.strings */,
+				FC23C84218E08FEE0011736C /* main.m */,
+				FC23C84418E08FEE0011736C /* us states abbreviator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC23C85518E08FEE0011736C /* us states abbreviatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC23C85B18E08FEE0011736C /* us_states_abbreviatorTests.m */,
+				FC23C85618E08FEE0011736C /* Supporting Files */,
+			);
+			path = "us states abbreviatorTests";
+			sourceTree = "<group>";
+		};
+		FC23C85618E08FEE0011736C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC23C85718E08FEE0011736C /* us states abbreviatorTests-Info.plist */,
+				FC23C85818E08FEE0011736C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC23C83218E08FEE0011736C /* us states abbreviator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC23C85F18E08FEE0011736C /* Build configuration list for PBXNativeTarget "us states abbreviator" */;
+			buildPhases = (
+				FC23C82F18E08FEE0011736C /* Sources */,
+				FC23C83018E08FEE0011736C /* Frameworks */,
+				FC23C83118E08FEE0011736C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "us states abbreviator";
+			productName = "us states abbreviator";
+			productReference = FC23C83318E08FEE0011736C /* us states abbreviator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC23C84D18E08FEE0011736C /* us states abbreviatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC23C86218E08FEE0011736C /* Build configuration list for PBXNativeTarget "us states abbreviatorTests" */;
+			buildPhases = (
+				FC23C84A18E08FEE0011736C /* Sources */,
+				FC23C84B18E08FEE0011736C /* Frameworks */,
+				FC23C84C18E08FEE0011736C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC23C85418E08FEE0011736C /* PBXTargetDependency */,
+			);
+			name = "us states abbreviatorTests";
+			productName = "us states abbreviatorTests";
+			productReference = FC23C84E18E08FEE0011736C /* us states abbreviatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC23C82B18E08FEE0011736C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = esense;
+				TargetAttributes = {
+					FC23C84D18E08FEE0011736C = {
+						TestTargetID = FC23C83218E08FEE0011736C;
+					};
+				};
+			};
+			buildConfigurationList = FC23C82E18E08FEE0011736C /* Build configuration list for PBXProject "us states abbreviator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC23C82A18E08FEE0011736C;
+			productRefGroup = FC23C83418E08FEE0011736C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC23C83218E08FEE0011736C /* us states abbreviator */,
+				FC23C84D18E08FEE0011736C /* us states abbreviatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC23C83118E08FEE0011736C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E1250318E0B3A2003FC83C /* abbreviations.plist in Resources */,
+				FC23C84118E08FEE0011736C /* InfoPlist.strings in Resources */,
+				FC23C84918E08FEE0011736C /* Images.xcassets in Resources */,
+				C0E1250418E0B3A2003FC83C /* states.plist in Resources */,
+				C0E124F718E0A4A6003FC83C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC23C84C18E08FEE0011736C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23C85A18E08FEE0011736C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC23C82F18E08FEE0011736C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23C84718E08FEE0011736C /* AppDelegate.m in Sources */,
+				C0E1250518E0B3A2003FC83C /* USStatesAbbreviator.m in Sources */,
+				FC23C84318E08FEE0011736C /* main.m in Sources */,
+				C0E124F618E0A4A6003FC83C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC23C84A18E08FEE0011736C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23C85C18E08FEE0011736C /* us_states_abbreviatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC23C85418E08FEE0011736C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC23C83218E08FEE0011736C /* us states abbreviator */;
+			targetProxy = FC23C85318E08FEE0011736C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC23C83F18E08FEE0011736C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC23C84018E08FEE0011736C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC23C85818E08FEE0011736C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC23C85918E08FEE0011736C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC23C85D18E08FEE0011736C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC23C85E18E08FEE0011736C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC23C86018E08FEE0011736C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "us states abbreviator/us states abbreviator-Prefix.pch";
+				INFOPLIST_FILE = "us states abbreviator/us states abbreviator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC23C86118E08FEE0011736C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "us states abbreviator/us states abbreviator-Prefix.pch";
+				INFOPLIST_FILE = "us states abbreviator/us states abbreviator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC23C86318E08FEE0011736C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/us states abbreviator.app/us states abbreviator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "us states abbreviator/us states abbreviator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "us states abbreviatorTests/us states abbreviatorTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC23C86418E08FEE0011736C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/us states abbreviator.app/us states abbreviator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "us states abbreviator/us states abbreviator-Prefix.pch";
+				INFOPLIST_FILE = "us states abbreviatorTests/us states abbreviatorTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC23C82E18E08FEE0011736C /* Build configuration list for PBXProject "us states abbreviator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23C85D18E08FEE0011736C /* Debug */,
+				FC23C85E18E08FEE0011736C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC23C85F18E08FEE0011736C /* Build configuration list for PBXNativeTarget "us states abbreviator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23C86018E08FEE0011736C /* Debug */,
+				FC23C86118E08FEE0011736C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC23C86218E08FEE0011736C /* Build configuration list for PBXNativeTarget "us states abbreviatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23C86318E08FEE0011736C /* Debug */,
+				FC23C86418E08FEE0011736C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC23C82B18E08FEE0011736C /* Project object */;
+}

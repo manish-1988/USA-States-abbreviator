@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>alabama</string>
+	<string>alaska</string>
+	<string>arizona</string>
+	<string>arkansas</string>
+	<string>california</string>
+	<string>colorado</string>
+	<string>connecticut</string>
+	<string>delaware</string>
+	<string>district of columbia</string>
+	<string>florida</string>
+	<string>georgia</string>
+	<string>hawaii</string>
+	<string>idaho</string>
+	<string>illinois</string>
+	<string>indiana</string>
+	<string>iowa</string>
+	<string>kansas</string>
+	<string>kentucky</string>
+	<string>lousiana</string>
+	<string>maine</string>
+	<string>maryland</string>
+	<string>massachusetts</string>
+	<string>michigan</string>
+	<string>minnesota</string>
+	<string>mississippi</string>
+	<string>missouri</string>
+	<string>montana</string>
+	<string>nebraska</string>
+	<string>nevada</string>
+	<string>new hampshire</string>
+	<string>new jersey</string>
+	<string>new mexico</string>
+	<string>new york</string>
+	<string>north carolina</string>
+	<string>north dakota</string>
+	<string>ohio</string>
+	<string>oklahoma</string>
+	<string>oregon</string>
+	<string>pennsylvania</string>
+	<string>rhode island</string>
+	<string>south carolina</string>
+	<string>south dakota</string>
+	<string>tennessee</string>
+	<string>texas</string>
+	<string>utah</string>
+	<string>vermont</string>
+	<string>virginia</string>
+	<string>washington</string>
+	<string>west virginia</string>
+	<string>wisconsin</string>
+	<string>wyoming</string>
+</array>
+</plist>
